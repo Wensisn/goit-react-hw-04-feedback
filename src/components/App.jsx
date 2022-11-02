@@ -4,7 +4,7 @@ import { FedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Section } from './Section/Section';
 import { useState, useCallback } from 'react';
 
-export function OldApp() {
+export function App() {
   const [state, setState] = useState({
     good: 0,
     neutral: 0,
@@ -49,4 +49,4 @@ export function OldApp() {
   );
 }
 
-export default OldApp;
+export default App;
